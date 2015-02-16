@@ -4,8 +4,6 @@ var hapi = require('hapi'),
     code = require('code'),
     describe = lab.experiment,
     it = lab.it,
-    before = lab.before,
-    after = lab.after,
     expect = code.expect;
 
 describe('hello service', function() {
